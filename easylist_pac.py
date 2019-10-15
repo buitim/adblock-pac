@@ -1531,7 +1531,8 @@ good_da_host_exact = ['apple.com',
                       'gsp64-ssl.ls-apple.com.akadns.net',
                       'mt-ingestion-service-st11.itunes.apple.com',
                       'mt-ingestion-service-st11.itunes-apple.com.akadns.net',
-                      'microsoft.com', 'mozilla.com', 'mozilla.org', 'squaremktg.com']
+                      'microsoft.com', 'mozilla.com', 'mozilla.org', 
+                      'squaremktg.com', 'squarecdn.com', 'squareup.com']
 good_da_host_regex = []
 good_da_hostpath_exact = []
 good_da_hostpath_regex = []

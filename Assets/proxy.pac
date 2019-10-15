@@ -3,7 +3,7 @@
 // Copyright (C) 2017 by Steven T. Smith <steve dot t dot smith at gmail dot com>, GPL
 // https://github.com/essandess/easylist-pac-privoxy/
 //
-// PAC file created on Tue, 15 Oct 2019 09:22:38 GMT
+// PAC file created on Tue, 15 Oct 2019 09:45:40 GMT
 // Created with command: easylist_pac.py -d ./Assets
 //
 // http://www.gnu.org/licenses/lgpl.txt
@@ -100,7 +100,7 @@ var blackhole = "PROXY " + blackhole_ip_port;
 // bad_da_host_exact == bad domain anchor with host/path type, exact matching with Object hash
 // bad_da_host_regex == bad domain anchor with host/path type, RegExp matching
 // 
-// 72 rules:
+// 74 rules:
 var good_da_host_JSON = { "apple.com": null,
 "icloud.com": null,
 "apple-dns.net": null,
@@ -172,8 +172,10 @@ var good_da_host_JSON = { "apple.com": null,
 "microsoft.com": null,
 "mozilla.com": null,
 "mozilla.org": null,
-"squaremktg.com": null };
-var good_da_host_exact_flag = 72 > 0 ? true : false;  // test for non-zero number of rules
+"squaremktg.com": null,
+"squarecdn.com": null,
+"squareup.com": null };
+var good_da_host_exact_flag = 74 > 0 ? true : false;  // test for non-zero number of rules
     
 // 0 rules as an efficient NFA RegExp:
 var good_da_host_RegExp = /^$/;
