@@ -123,7 +123,9 @@ class EasyListPAC:
         easyprivacy_url = 'https://easylist.to/easylist/easyprivacy.txt'
         fanboy_annoyance_url = 'https://easylist.to/easylist/fanboy-annoyance.txt'
         fanboy_antifacebook = 'https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fanboy-antifacebook.txt'
-        self.download_list = [fanboy_antifacebook, fanboy_annoyance_url, easyprivacy_url, easylist_url] + self.extra_easylist_urls
+        antiAdBlockFilters = 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt'
+        self.download_list = [antiAdBlockFilters, easyprivacy_url, easylist_url] + self.extra_easylist_urls
+        # self.download_list = [fanboy_antifacebook, fanboy_annoyance_url, easyprivacy_url, easylist_url] + self.extra_easylist_urls
         self.file_list = []
         for url in self.download_list:
             fname = os.path.basename(url)
@@ -1531,8 +1533,8 @@ good_da_host_exact = ['apple.com',
                       'gsp64-ssl.ls-apple.com.akadns.net',
                       'mt-ingestion-service-st11.itunes.apple.com',
                       'mt-ingestion-service-st11.itunes-apple.com.akadns.net',
-                      'microsoft.com', 'mozilla.com', 'mozilla.org', 
-                      'squaremktg.com', 'squarecdn.com', 'squareup.com']
+                      'microsoft.com', 'mozilla.com', 'mozilla.org']
+                    #   'squaremktg.com', 'squarecdn.com', 'squareup.com']
 good_da_host_regex = []
 good_da_hostpath_exact = []
 good_da_hostpath_regex = []
