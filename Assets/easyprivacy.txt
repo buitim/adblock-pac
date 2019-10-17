@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 201910150933
+! Version: 201910170234
 ! Title: EasyPrivacy
-! Last modified: 15 Oct 2019 09:33 UTC
+! Last modified: 17 Oct 2019 02:34 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1260,6 +1260,7 @@
 /ComScoreSWF.
 /concat/tracking.
 /condenet-metric.
+/confiant.js
 /config/analytics.js
 /configuration-stat.js
 /connect_counter.js
@@ -6758,6 +6759,7 @@ _mongo_stats/
 ||quadran.eu^$third-party
 ||quantcount.com^$third-party
 ||quantserve.com/api/
+||quantserve.com/aquant.js
 ||quantserve.com/pixel/$third-party
 ||quantserve.com^$~third-party
 ||quantummetric.com^$third-party
@@ -6766,6 +6768,7 @@ _mongo_stats/
 ||questradeaffiliates.com^$third-party
 ||quillion.com^$third-party
 ||quintelligence.com^$third-party
+||quitsnap-blue.com^$third-party
 ||qzlog.com^$third-party
 ||r7ls.net^$third-party
 ||radarstats.com^$third-party
@@ -14640,6 +14643,7 @@ _mongo_stats/
 ||track.totalav.com^$script
 ||track.ugamezone.com^
 ||track.ultimate-guitar.com^
+||track.wattpad.com^
 ||track.webgains.com^
 ||track.websiteceo.com^
 ||track.wildblue.com^
