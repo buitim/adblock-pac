@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lJpnHtqeL0ziU/HWZqmDdA
-! Version: 201910170530
+! Checksum: U5oB52PWQ01qBfp+AzA2HQ
+! Version: 201910280710
 ! Title: Adblock Warning Removal List
-! Last modified: 17 Oct 2019 05:30 UTC
+! Last modified: 28 Oct 2019 07:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 !
@@ -16,7 +16,8 @@
 /deadblocker/*
 /mod_ablockdetector/*
 !
-@@||cdn.egy.best/static/global/js/adblock.js$script
+@@/advertisement.js$script,~third-party,domain=arabe-media.com
+!
 @@||play.bokracdn.run/v2/adsjs/ads.js$script,~third-party
 !
 ###adblock_screen
@@ -26,8 +27,10 @@
 ##.adblock_msg
 ##.ads-block-warning
 ##.deadblocker-header-bar
+##.detected-block-modal
+##.no-ad-reminder
 !
-myegy.cc##.disclaimer
+myegy.cc,myegy.io,myegy.to##.disclaimer
 4algeria.com###exposeMask
 chahid4u.tk###unblocker
 4algeria.com##.xenOverlay
@@ -94,6 +97,7 @@ shadbase.com##img[alt="adblock"]
 /ad-blocking-advisor/*
 /adbDetect.
 /adbDetect/*
+/adbclk2.
 /adbl_dtct.
 /adbl_dtct1.
 /adblock-detect/*
@@ -244,6 +248,7 @@ _adblock_killer.
 ##.adblocker-message
 ##.adblocker-wrap
 ##.ads-block-warning
+##.adsblocked
 ##.counterAdblocks
 ##.deadblocker-header-bar
 ##.deadblocker-header-bar-inner
@@ -270,6 +275,7 @@ iphonesoft.fr,iphonetweak.fr###msgUser
 retinaboys.com###screen_block
 lagrosseradio.com###warn
 journaldugeek.com##.banner__content
+closermag.fr,grazia.fr,topsante.com##.dfp-slot
 ceesty.com,clkme.me,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,gestyy.com,jigbig.tk,newsfortrump.ga,sh.st,shorte.st,skiip.me,skipp.io,viid.me,wiid.me##.information-container
 etr.fr##.no_block
 radiox.com##.notifyjs-corner
@@ -343,6 +349,7 @@ ostroh.info###modal.modal-bg
 rbkgames.com###norris-detector
 all-episodes.net###odin
 mover.uz###oframeplayer > [class][style^="display: block"]
+filmix.cc,filmix.co,filmix.ink,filmix.site,filmix.today###oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"] ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
 center-yf.ru,lektsii.org,studopedia.com.ua,studopedia.org,studopedia.ru,studopedia.su###opaco,#popup
 md4u.ru###pagecontent > div[style*="background-color"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
@@ -376,7 +383,6 @@ zakon.kz##.adblock_alert
 ogorod.ru##.adblock_popup_warning
 hentaiz.org##.adblocker
 kubik3.ru##.adbs
-print-post.com##.addbl
 ideya-biznesa.ru##.admania_adblock_detector
 24video.xxx##.adt
 rusrek.com##.alert
@@ -443,9 +449,11 @@ forum.bestflowers.ru##.xenOverlay
 @@||an.yandex.ru/jstracer?aab_detect=$xmlhttprequest,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua
 @@||anidub.com/ads.js|$script,domain=anidub.com
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
+@@||googleads.g.doubleclick.net/pagead/$xmlhttprequest,domain=filmix.cc|filmix.co|filmix.ink|filmix.site|filmix.today
 @@||sports.ru^*/adfox.$xmlhttprequest
 i.factor.ua##[data-place-block]
 auto62rus.ru,eset-key.ru,mycrib.ru,piggy-bank.online,politonline.ru,showmehow.ru##[data-type="anti-abp"]
+doefiratv.net##[id^="ko-bind"] > [style]:not([id^="player"])
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 drive2.ru##a[href][target="_blank"] > img[src][style^="width: 100%; height: auto;"][style*="vertical-align: middle; max-width: 240px;"]
 tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
