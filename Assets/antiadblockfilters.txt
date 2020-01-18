@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t05UVFRuWwwnc9YNC06ELA
-! Version: 201912290950
+! Checksum: OzsICbX1bulkH6wXPrGj1Q
+! Version: 202001180600
 ! Title: Adblock Warning Removal List
-! Last modified: 29 Dec 2019 09:50 UTC
+! Last modified: 18 Jan 2020 06:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -311,7 +311,6 @@ usgang.ch###rectangle-wrapper
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_latvian.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_romanian.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_russian.txt ***
-##.adblock-stop
 delfi.ee###ab--notification-ribbon
 minimultik.ru###abDetected
 patrioty.org.ua###ad_pu_modal
@@ -324,6 +323,7 @@ wotactions.com###ads_warning
 firebit.info###adv-300 + div[class][align="center"][style^="background-color"]
 novostroy-m.ru###advert_result
 cxem.net###antiAdBlock
+photoshop-online.biz###aslot
 elhow.ru###b-info-wrapper
 gisher.org###blockadbenabled
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
@@ -351,8 +351,8 @@ ostroh.info###modal.modal-bg
 rbkgames.com###norris-detector
 all-episodes.net###odin
 mover.uz###oframeplayer > [class][style^="display: block"]
-filmix.cc,filmix.co,filmix.ink,filmix.site,filmix.today###oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"] ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
-filmix.cc,filmix.co,filmix.ink,filmix.site,filmix.today#?##oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"]:-abp-contains(/adblock/i)
+filmix.cc,filmix.co,filmix.ink,filmix.online,filmix.site,filmix.today,filmix.zone###oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"] ~ pjsdiv[style^="position: absolute; left:"][style*="pointer-events: none; display: block; visibility:"]
+filmix.cc,filmix.co,filmix.ink,filmix.online,filmix.site,filmix.today,filmix.zone#?##oframeplayer > pjsdiv[style^="position: absolute; left:"][style*="display: block; visibility: visible;"]:-abp-contains(/adblock/i)
 md4u.ru###pagecontent > div[style*="background-color"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 kompravda.eu,kp.ru###popapIsBlockedAd
@@ -381,6 +381,7 @@ forum.qrz.ru,hentaiz.org,life.ru,mastergrad.com##.adblock
 pimpletv.ru##.adblock-notification
 nevasport.ru##.adblock-notify
 exler.ru##.adblock-pls
+##.adblock-stop
 zakon.kz##.adblock_alert
 ogorod.ru##.adblock_popup_warning
 hentaiz.org##.adblocker
@@ -401,7 +402,6 @@ cs-amba.ru##.banka
 medical-club.net##.blocker-notice,.blocker-overlay
 electric-house.ru##.blok_forum > div[style]
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
-it-actual.ru##.blznok
 rutor1.ru##.box_in > .text > p > font
 tsn.ua##.c-aside-embed
 kanobu.ru##.c-moneyPlace_empty
@@ -443,6 +443,7 @@ qaru.site##.similar.a[style]
 l-a-w.ru,mhelp.kz##.swal2-container
 objavlenija.respublika.cz##.sweet-alert,.sweet-overlay
 kinoafisha.ua##.turn-off-add-block-text
+e-xecutive.ru##.warning
 kinoprofi.net##.warning-adblock
 xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 forum.bestflowers.ru##.xenOverlay
@@ -498,6 +499,7 @@ gismeteo.by,gismeteo.ru##div[class^="stopblock"]
 finfront.ru##div[class^="swal2"]
 savevideo.me##div[id^="ads_notice_"]
 forvk.space##div[id^="block"][style*="display: block;"]
+photoshop-online.biz##div[style="display:inline-block;width:728px;height:140px"]
 acomics.ru##div[style*="/design/common/pic/please"]
 abc-people.com##div[style*="background-color"][style*="position"][style*="z-index"]
 anime.anidub.life,online.anidub.com#?#div[style^="position: fixed;"]:-abp-has(> h3:-abp-contains(Обнаружена блокировка рекламы))
