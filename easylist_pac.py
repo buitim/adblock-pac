@@ -119,17 +119,16 @@ class EasyListPAC:
         return self.args
 
     def easylists_download_latest(self):
-        blocklist_url = 'https://pgl.yoyo.org/as/serverlist.php?hostformat=adblockplus&showintro=0'
+        easylist_url = 'https://easylist.to/easylist/easylist.txt'
         antiAdBlockFilters = 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt'
         osidList_url = 'https://dblmobile.oisd.nl/?.txt'
-        # easylist_url = 'https://easylist.to/easylist/easylist.txt'
+        fanboy_annoyance_url = 'https://easylist.to/easylist/fanboy-annoyance.txt'
+        easyprivacy_url = 'https://easylist.to/easylist/easyprivacy.txt'
         # adguard_url = 'https://filters.adtidy.org/extension/chromium/filters/2.txt'
         # adguard_mobile_url = 'https://filters.adtidy.org/extension/chromium/filters/11.txt'
         # idwya_url = 'https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/i-dont-want-your-app.txt'
-        # fanboy_annoyance_url = 'https://easylist.to/easylist/fanboy-annoyance.txt'
-        # easyprivacy_url = 'https://easylist.to/easylist/easyprivacy.txt'
         # fanboy_antifacebook = 'https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fanboy-antifacebook.txt'
-        self.download_list = [blocklist_url, antiAdBlockFilters, osidList_url] + self.extra_easylist_urls
+        self.download_list = [easylist_url, antiAdBlockFilters, osidList_url, fanboy_annoyance_url, easyprivacy_url] + self.extra_easylist_urls
         # self.download_list = [fanboy_antifacebook, fanboy_annoyance_url, easyprivacy_url, easylist_url] + self.extra_easylist_urls
         self.file_list = []
         for url in self.download_list:
@@ -689,6 +688,9 @@ if (
    ||
    // Apple Mobile Software Update
    (host == "mesu.apple.com") || dnsDomainIs(host, "mesu.apple.com")
+   ||
+   // Facebook.net (Square Coupons)
+   (host == "facebook.net") || dnsDomainIs(host, "facebook.net")
 )
         return "DIRECT";
 else
