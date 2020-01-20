@@ -1,7 +1,7 @@
 # easylist-pac-privoxy
 EasyList Tracker and Adblock Rules to Proxy Auto Configuration (PAC) File and Privoxy Actions and Filters
 
-Converts [EasyList](https://easylist.to/index.html) tracker and ad blocking rules to efficient network-level blocks in a [proxy.pac](https://raw.githubusercontent.com/buitim/easylist-pac-privoxy/master/proxy.pac) file for automatic proxy network configurations and [Privoxy](http://www.privoxy.org) proxy servers.
+Converts [EasyList](https://easylist.to/index.html) tracker and ad blocking rules to efficient network-level blocks in a [proxy.pac](https://raw.githubusercontent.com/buitim/adblock-pac/master/Assets/proxy.pac) file for automatic proxy network configurations and [Privoxy](http://www.privoxy.org) proxy servers.
 
 Easily incorporates multiple blocking rulesets into both PAC and Privoxy formats, including [easyprivacy.txt](https://easylist.to/easylist/easyprivacy.txt), [easylist.txt](https://easylist.to/easylist/easylist.txt), [fanboy-annoyance.txt](https://easylist.to/easylist/fanboy-annoyance.txt), [fanboy-social.txt](https://easylist.to/easylist/fanboy-social.txt), [antiadblockfilters.txt](https://easylist-downloads.adblockplus.org/antiadblockfilters.txt), [malwaredomains_full.txt](https://easylist-downloads.adblockplus.org/malwaredomains_full.txt), and the anti-spamware list [adblock-list.txt](https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt).
 
@@ -27,7 +27,7 @@ A combination of a `proxy.pac` file with Privoxy and a webserver for CSS rules t
 
 ### To Use: Localhost
 
-Download the [proxy.pac](https://raw.githubusercontent.com/buitim/easylist-pac-privoxy/master/proxy.pac) file.
+Download the [proxy.pac](https://raw.githubusercontent.com/buitim/adblock-pac/master/Assets/proxy.pac) file.
 
 On macOS (without Server.app):
 
@@ -90,7 +90,7 @@ This is the best option.
 
 Set your network Proxy Auto Configuration setting to:
 
-> `https://raw.githubusercontent.com/buitim/easylist-pac-privoxy/master/proxy.pac`
+> `https://raw.githubusercontent.com/buitim/adblock-pac/master/Assets/proxy.pac`
 
 ***Advantages***
 
@@ -105,7 +105,7 @@ Set your network Proxy Auto Configuration setting to:
 
 ## Details
 
-Using EasyList rules in a in a [proxy.pac](https://raw.githubusercontent.com/buitim/easylist-pac-privoxy/master/proxy.pac) file provides these benefits:
+Using EasyList rules in a in a [proxy.pac](https://raw.githubusercontent.com/buitim/adblock-pac/master/Assets/proxy.pac) file provides these benefits:
 
 * Tracker and Ad blocking performed in all clients that use PAC files, browsers and non-browsers alike.
 * Tracker and Ad blocking on both desktop and mobile devices, especially via [VPN](../../../buitim/osx-openvpn-server).
@@ -136,7 +136,7 @@ python3 easylist_pac.py -h
 python3 easylist_pac.py -b blackhole-ip-address:port -d download_dir -p proxy:port -P proxy.pac.orig
 ```
 
-The new file [proxy.pac](https://raw.githubusercontent.com/buitim/easylist-pac-privoxy/master/proxy.pac) will be created in the (default `~/Downloads` directory. See `easylist_pac.py -h` for options.
+The new file [proxy.pac](https://raw.githubusercontent.com/buitim/adblock-pac/master/Assets/proxy.pac) will be created in the (default `~/Downloads` directory. See `easylist_pac.py -h` for options.
 
 ## Privoxy
 
