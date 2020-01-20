@@ -3,8 +3,8 @@
 #  Optimized for Mobile (iOS/Android)
 #  Use in wildcard blocking environment
 #
-#  Entries     | 44548  
-#  Last update | Jan 20th 2020 00:08 CET 
+#  Entries     | 44530  
+#  Last update | Jan 20th 2020 08:43 CET 
 #  Info/Issues | oisd.nl
 
 0.start.bz
@@ -10135,7 +10135,6 @@ badstairs.com
 badtopwitch.work
 badults.se
 badv.wp.pl
-bafminco.online
 bagmulafdyn.xyz
 bagslap.com
 bahag.sc.omtrdc.net
@@ -14817,7 +14816,6 @@ coupons4humanity.go2cloud.org
 couponsandoffers.com
 courseseat.com
 covernmentasto.info
-covervalets.top
 covusaffiliates.go2cloud.org
 cowana-adserver.de
 cox.adswizz.com
@@ -16257,7 +16255,6 @@ descrepush.com
 descz.ovh
 deseretdigitalmedia.tt.omtrdc.net
 desert.ru
-desertbite.site
 desertedbreath.com
 desertedrat.com
 desipearl.com
@@ -17635,7 +17632,6 @@ elitetoplist.com
 elitsearch.com
 elixieros.rest
 elixirnutris.info
-ellation.map.fastly.net
 ellcurvth.com
 elle.alljournal.ru
 elmenor.xyz
@@ -19002,7 +18998,6 @@ flvtube.net
 flwja.com
 flxpxl.com
 flycast.com
-flyflex.site
 flygo.ru
 flyinads.com
 flyingcroc.com
@@ -19509,7 +19504,6 @@ fzhxi.com
 fzlkdwivfnreg.com
 fznpq.com
 fzxrjx.com
-g-a.site
 g-cash.biz
 g-i2.com
 g-statistic.com
@@ -20323,7 +20317,6 @@ gntbcstwxia.112.2o7.net
 gntbcstwzzm.112.2o7.net
 go-clicks.de
 go-here.info
-go-mails.com
 go-rank.de
 go-rillatrack.com
 go.10086.cn
@@ -20697,7 +20690,6 @@ gpgsxlmjnfid.com
 gpjph.com
 gplayer.kmpmedia.net
 gpm-digital.com
-gpstracx.us
 gpursultspinessi.info
 gqecfgovxbj.com
 gqedxf.com
@@ -21200,7 +21192,6 @@ hegtiterbuttons.pro
 heightboost.com
 heimo.rrsdl.com
 heise.met.vgwort.de
-heisseabenteuer.host
 helgasherry.ru
 helingoneheckhes.pro
 helionresearch.com
@@ -22871,7 +22862,6 @@ ingeliteral.pro
 ingenioustech.biz
 ingest.fwmrm.net
 ingest.m2appmonitor.com
-ingibankuk.com
 ini.pinguopai.cn
 inimbus.com.au
 ininmacerad.pro
@@ -25868,7 +25858,6 @@ mail.sharethis.com
 mail.tropmet.res.in
 mail.tsinghua.edu.cn
 mailderef.web.de
-mailer-amc80.com
 mailer.ebates.com
 mailer.livejasmin.com
 mailer.p1ne.com
@@ -28334,7 +28323,6 @@ nats.hushmoney.com
 nats4.fetishbucks.com
 naturahirek.com
 naturalnerve.bid
-naturalstoneurns.xyz
 naturaltracking.com
 naturheilkunde.cleverpush.com
 naucaips.com
@@ -29621,7 +29609,6 @@ okanjo.com
 okaynews.me
 okboobs.com
 okcounter.com
-okgomail.work
 okkkk.com
 oklahomadepartmentofcommerce.112.2o7.net
 okokw.com
@@ -30343,7 +30330,6 @@ oxcash.com
 oxen.hillcountrytexas.com
 oxiads.fr
 oxidy.com
-oxiflashh.us
 oxinads.com
 oxipkvzcdzh.com
 oxoads.com
@@ -30958,7 +30944,6 @@ personaclick.com
 personagraph.com
 personalcapital.go2cloud.org
 personaleme.pro
-personalendeavours.xyz
 personalization-production.us-east-1.elasticbeanstalk.com
 personalki.net
 personalreports.lexisnexis.com
@@ -33379,7 +33364,6 @@ reniew.rest
 rensovetors.info
 rentcom.112.2o7.net
 rentcom.tt.omtrdc.net
-renwalmbm.net
 reon.club
 reople.co.kr
 repdata.usatoday.com
@@ -36431,7 +36415,6 @@ spedads.primosearch.com
 spedia.net
 speead.jp
 speeb.com
-speechstar.site
 speed-trap.com
 speed.wikia.net
 speedbar.myway.com
@@ -37732,7 +37715,6 @@ superfastcdn.com
 superfastmediation.com
 superfish.com
 superinterstitial.com
-superiorsco.online
 superippo.com
 superlogy.com
 superloofy.com
