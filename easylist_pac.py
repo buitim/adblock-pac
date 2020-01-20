@@ -119,7 +119,7 @@ class EasyListPAC:
         return self.args
 
     def easylists_download_latest(self):
-        blocklist_url = 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0'
+        blocklist_url = 'https://pgl.yoyo.org/as/serverlist.php?hostformat=adblockplus&showintro=0'
         antiAdBlockFilters = 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt'
         osidList_url = 'https://dblmobile.oisd.nl/?.txt'
         # easylist_url = 'https://easylist.to/easylist/easylist.txt'
