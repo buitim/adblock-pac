@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OzsICbX1bulkH6wXPrGj1Q
-! Version: 202001180600
+! Checksum: PNpKNV2Tk6nEIZy3UJp4IQ
+! Version: 202001200130
 ! Title: Adblock Warning Removal List
-! Last modified: 18 Jan 2020 06:00 UTC
+! Last modified: 20 Jan 2020 01:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -513,7 +513,6 @@ ph4.ru##table[width][height="90"][style]
 bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ||adscat.ru^$third-party
 ||allnorilsk.ru/js/adb.js
-||animeteatr.ru/a-detector/
 ||anivisual.net/mim*.js|$script,domain=anivisual.net
 ||avito.ru^*/some-pretty-script.js
 ||buhgalter.com.ua^*/blocker.
@@ -535,6 +534,6 @@ bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
 ||shellcat.ru^$third-party
 ||stroi-help.ru/forum/script_new.js
 ||vazhno.ru/cdn-cgi/apps/head/*.js
-||vsthouse.ru/adregain-anti.js
+||vsthouse.ru/a-detector/
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_slovak.txt ***
 ! *** antiadblockfilters:antiadblockfilters/antiadblock_spanish.txt ***
