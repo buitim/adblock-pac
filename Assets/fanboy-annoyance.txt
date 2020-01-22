@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202001220516
+! Version: 202001220723
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Jan 2020 05:16 UTC
+! Last modified: 22 Jan 2020 07:23 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -27389,6 +27389,7 @@ _site_cookie_
 ##.bandeau-cookie
 ##.bandeau-cookie-wrapper
 ##.bandeau-cookies
+##.bandeau-information-cookies
 ##.bandeau-sellsecure
 ##.bandeauCookies
 ##.bandeau_consent
@@ -41889,6 +41890,7 @@ red-by-sfr.fr,sfr.fr###CkC
 vrin.fr###Disclaimer
 grandeavenue.fr###FixedBannerClientDiv
 cdiscount.com###\5f evh-ric
+madeindesign.ch###_EAPM
 volvic.fr###_legal
 guideastuces.com###agreeMsg
 ecrypterlenergie.org###alert-mention

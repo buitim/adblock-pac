@@ -688,14 +688,6 @@ if (
    ||
    // Apple Mobile Software Update
    (host == "mesu.apple.com") || dnsDomainIs(host, "mesu.apple.com")
-   ||
-   // Facebook.net (Square Coupons)
-   (host == "facebook.net") || dnsDomainIs(host, "facebook.net")
-   ||
-   // Facebook.com (Square Coupons)
-   (host == "facebook.com") || dnsDomainIs(host, "facebook.com")
-   ||
-   (host == "squaremktg.com") || dnsDomainIs(host, "squaremktg.com")
 )
         return "DIRECT";
 else
