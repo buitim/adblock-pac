@@ -691,6 +691,8 @@ if (
    ||
    // Facebook.net (Square Coupons)
    (host == "facebook.net") || dnsDomainIs(host, "facebook.net")
+   ||
+   (host == "squaremktg.com") || dnsDomainIs(host, "squaremktg.com")
 )
         return "DIRECT";
 else
