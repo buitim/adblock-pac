@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KIl5GDVXb6UcEqenCEu4jg
-! Version: 202001221000
+! Checksum: +ysGs69IwmcwcmjkeozksA
+! Version: 202002020650
 ! Title: Adblock Warning Removal List
-! Last modified: 22 Jan 2020 10:00 UTC
+! Last modified: 02 Feb 2020 06:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -387,6 +387,7 @@ ogorod.ru##.adblock_popup_warning
 hentaiz.org##.adblocker
 kubik3.ru##.adbs
 ideya-biznesa.ru##.admania_adblock_detector
+helpsetup.ru##.adpopup
 24video.xxx##.adt
 rusrek.com##.alert
 benfilm.net##.alert-block

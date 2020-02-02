@@ -1596,6 +1596,16 @@ good_da_host_exceptions_exact = [ 'iad.apple.com',
                                   'www.bingads.microsoft.com',
                                   'survey.watson.microsoft.com' ]
 
+# Apple OTA Hosts. Use with good_da_host_exceptions_exact to block OTA updates on iOS
+apple_ota_hosts = [	'mesu.apple.com',
+					'appldnld.apple.com',
+					'swscan.apple.com',
+					'xp.apple.com',
+					'gdmf.apple.com' ]
+
+# Comment out the following line to unblock OTA updates
+good_da_host_exceptions_exact.extend(apple_ota_hosts)
+
 # Long regex filter """here""" documents
 
 # ignore any rules following comments with these strings, until the next non-ignorable comment
