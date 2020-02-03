@@ -15,11 +15,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Global HTTP Proxy</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.proxy.http.global.103A1B2C-3DC3-4F68-863C-96CF897D1308</string>
+			<string>com.apple.proxy.http.global.34E88BC3-0865-4B92-8F8F-8ED5595608AE</string>
 			<key>PayloadType</key>
 			<string>com.apple.proxy.http.global</string>
 			<key>PayloadUUID</key>
-			<string>103A1B2C-3DC3-4F68-863C-96CF897D1308</string>
+			<string>34E88BC3-0865-4B92-8F8F-8ED5595608AE</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProxyCaptiveLoginAllowed</key>
@@ -27,7 +27,7 @@
 			<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/buitim/easylist-pac-privoxy/master/Assets/proxy.pac</string>
+			<string>https://raw.githubusercontent.com/buitim/adblock-pac/master/Assets/proxy.pac</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
@@ -35,7 +35,7 @@
 	<key>PayloadDescription</key>
 	<string>This profile is a self-made profile that blocks ads globally. Should work pretty well.</string>
 	<key>PayloadDisplayName</key>
-	<string>AdBlock Proxy</string>
+	<string>System-Wide Adblock</string>
 	<key>PayloadIdentifier</key>
 	<string>Timothys-MacBook-Pro.386B9DBB-FB43-4884-A082-EE2281D45D02</string>
 	<key>PayloadOrganization</key>
@@ -45,7 +45,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>08CBE7B1-626E-4691-B7A6-7D0B6F20F7CF</string>
+	<string>54487B1A-2220-466A-92DB-3AB077D3B58C</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
