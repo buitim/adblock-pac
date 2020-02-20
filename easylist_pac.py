@@ -1677,7 +1677,6 @@ include_these_good_rules = []
 include_these_bad_rules = [x for x in """\
 /securepubads.
 ||google.com/pagead
-||facebook.com/plugins/*
 ||platform.twitter.com
 ||api.areametrics.com
 ||in.cuebiq.com
@@ -1703,7 +1702,6 @@ beacon
 stat[is]?
 anal[iy]
 goog
-facebook
 yahoo
 amazon
 adob
@@ -1712,7 +1710,6 @@ msn
 goog\\S+?ad
 amazon\\S+?ad
 yahoo\\S+?ad
-facebook\\S+?ad
 adob\\S+?ad
 msn\\S+ad
 doubleclick
