@@ -127,7 +127,7 @@ class EasyListPAC:
         # adguard_mobile_url = 'https://filters.adtidy.org/extension/chromium/filters/11.txt'
         # idwya_url = 'https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/i-dont-want-your-app.txt'
         # fanboy_antifacebook = 'https://raw.githubusercontent.com/ryanbr/fanboy-adblock/master/fanboy-antifacebook.txt'
-        self.download_list = [easylist_url, antiAdBlockFilters, fanboy_annoyance_url] + self.extra_easylist_urls
+        self.download_list = [easylist_url, antiAdBlockFilters, fanboy_annoyance_url, easyprivacy_url] + self.extra_easylist_urls
         # self.download_list = [fanboy_antifacebook, fanboy_annoyance_url, easyprivacy_url, easylist_url] + self.extra_easylist_urls
         self.file_list = []
         for url in self.download_list:
