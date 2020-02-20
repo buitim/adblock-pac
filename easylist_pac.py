@@ -1678,8 +1678,6 @@ include_these_bad_rules = [x for x in """\
 /securepubads.
 ||google.com/pagead
 ||facebook.com/plugins/*
-||connect.facebook.com
-||connect.facebook.net
 ||platform.twitter.com
 ||api.areametrics.com
 ||in.cuebiq.com
