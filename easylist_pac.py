@@ -681,12 +681,6 @@ if (
    // Comcast
    (host == "imap.comcast.net") || (host == "smtp.comcast.net") ||
    dnsDomainIs(host, "imap.comcast.net") || dnsDomainIs(host, "smtp.comcast.net")
-   /*
-       Proxy bypass hostnames
-   */
-   ||
-   // Apple Mobile Software Update
-   (host == "mesu.apple.com") || dnsDomainIs(host, "mesu.apple.com")
 )
         return "DIRECT";
 else
@@ -1603,7 +1597,7 @@ apple_ota_hosts = [	'mesu.apple.com',
 					'gdmf.apple.com' ]
 
 # Comment out the following line to unblock OTA updates
-good_da_host_exceptions_exact.extend(apple_ota_hosts)
+# good_da_host_exceptions_exact.extend(apple_ota_hosts)
 
 # Long regex filter """here""" documents
 
